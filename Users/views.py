@@ -71,4 +71,3 @@ class AuthAPIView(APIView):
             # jwt 토큰 => 쿠키에 저장
             # res.set_cookie("refresh", refresh_token, httponly=True, samesite=None, secure=True)
             return res
-            
